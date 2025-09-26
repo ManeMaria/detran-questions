@@ -1,36 +1,86 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# DETRAN Questions
 
-## Getting Started
+O **DETRAN Questions** é uma aplicação web desenvolvida para auxiliar alunos nos estudos das provas teóricas do DETRAN, centralizando informações e questões organizadas por categorias para facilitar o aprendizado e a preparação para os exames.
 
-First, run the development server:
+## 🎯 Objetivo
 
+Este aplicativo tem como objetivo centralizar e organizar questões das provas teóricas do DETRAN, permitindo que os alunos:
+- Estudem questões categorizadas por temas específicos
+- Pesquisem questões por palavras-chave
+- Visualizem estatísticas de distribuição por categoria
+- Gerenciem um banco de questões personalizado
+- Tenham acesso a explicações detalhadas para cada questão
+
+## 🚀 Tecnologias Utilizadas
+
+### Frontend
+- **[Next.js 15.5.4](https://nextjs.org/)** - Framework React para aplicações web
+- **[React 19.1.0](https://react.dev/)** - Biblioteca para construção de interfaces
+- **[TypeScript 5](https://www.typescriptlang.org/)** - Superset do JavaScript com tipagem estática
+- **[Tailwind CSS 4](https://tailwindcss.com/)** - Framework CSS utilitário
+- **[Radix UI](https://www.radix-ui.com/)** - Componentes de interface acessíveis
+- **[Lucide React](https://lucide.dev/)** - Biblioteca de ícones
+- **[Class Variance Authority](https://cva.style/)** - Utilitário para variantes de classes CSS
+
+### Ferramentas de Desenvolvimento
+- **[Biome](https://biomejs.dev/)** - Linter e formatador de código
+- **[PostCSS](https://postcss.org/)** - Processador CSS
+- **TW Animate CSS** - Animações para Tailwind CSS
+
+### Categorias de Questões
+O sistema organiza as questões nas seguintes categorias:
+- 🚦 **Sinalização** - Placas e sinais de trânsito
+- 🛡️ **Direção Defensiva** - Técnicas de condução segura
+- 🔧 **Mecânica** - Conhecimentos técnicos do veículo
+- 🌱 **Meio Ambiente** - Impacto ambiental e sustentabilidade
+- ⚖️ **Legislação** - Leis e regulamentações de trânsito
+- 🚑 **Primeiros Socorros** - Procedimentos de emergência
+
+## 🛠️ Como Executar
+
+1. Clone o repositório:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/seu-usuario/detran-questions.git
+cd detran-questions
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Instale as dependências:
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Execute o servidor de desenvolvimento:
+```bash
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Abra [http://localhost:3000](http://localhost:3000) no seu navegador
 
-## Learn More
+## 📝 Scripts Disponíveis
 
-To learn more about Next.js, take a look at the following resources:
+- `npm run dev` - Inicia o servidor de desenvolvimento
+- `npm run build` - Gera a build de produção
+- `npm run start` - Inicia o servidor de produção
+- `npm run lint` - Executa o linter (Biome)
+- `npm run format` - Formata o código automaticamente
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🎨 Funcionalidades
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- ✅ **Gestão de Questões**: Adicionar, editar e excluir questões
+- 🔍 **Sistema de Busca**: Pesquisar questões por texto
+- 🏷️ **Filtros por Categoria**: Organizar questões por tema
+- 📊 **Dashboard com Estatísticas**: Visualizar distribuição de questões
+- 📱 **Design Responsivo**: Interface adaptável para mobile e desktop
+- 🎯 **Interface Intuitiva**: Design moderno e fácil de usar
 
-## Deploy on Vercel
+## 🚀 Deploy
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Para fazer deploy da aplicação, você pode usar:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **[Vercel](https://vercel.com/)** - Plataforma recomendada para Next.js
+- **[Netlify](https://netlify.com/)** - Alternativa para deploy
+- **[Railway](https://railway.app/)** - Plataforma de deploy simples
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
