@@ -23,7 +23,7 @@ export const QuestionCard: React.FC<{
             {question.question}
           </CardTitle>
         </div>
-        <div className="flex gap-2 ml-4">
+        {/* <div className="flex gap-2 ml-4">
           <Button
             variant="outline"
             size="sm"
@@ -40,7 +40,7 @@ export const QuestionCard: React.FC<{
           >
             Excluir
           </Button>
-        </div>
+        </div> */}
       </div>
     </CardHeader>
 
