@@ -336,4 +336,5 @@ export default function DetranQuizApp() {
         />
       )}
     </div>
-  ); 
+  );
+} 

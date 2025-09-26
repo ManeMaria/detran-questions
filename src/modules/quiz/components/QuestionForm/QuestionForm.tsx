@@ -3,6 +3,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { BookOpen, X } from 'lucide-react';
 import type { Question, QuestionCategory } from '@/modules/quiz/types';
+import { categories } from '@/modules/quiz/utils';
 
 
 export const QuestionForm: React.FC<{
